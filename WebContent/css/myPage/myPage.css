@@ -1,0 +1,326 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	display: block;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: #101322;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Jost', sans-serif;
+	overflow: hidden;
+}
+
+.layout {
+	width: 100%;
+	height: 100vh;
+}
+
+.content {
+	position: relative;
+	padding-right: 16px;
+	padding-left: 16px;
+	padding-bottom: 56px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	flex-direction: column;
+	display: block;
+	max-width: 700px;
+	height: auto;
+}
+
+.navi a {
+	position: relative;
+	top: 7px;
+	width: 175px;
+	text-align: center;
+}
+
+.first {
+	padding: 10px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ns-wrap {
+	padding: 10px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#setpage {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.second {
+	position: relative;
+	width: 100%;
+	background: #172036;
+	border-radius: 6px;
+	height: 88px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+
+.dibsList {
+	position: relative;
+	height: 45px;
+	width: 33.3%;
+	border-right: 1px solid #98A4B7;
+}
+
+.myTicket {
+	position: relative;
+	height: 45px;
+	width: 33.3%;
+	border-right: 1px solid #98A4B7;
+}
+
+.temperatura {
+	position: relative;
+	height: 45px;
+	width: 33.3%;
+	text-align: center;
+	line-height: 44px;
+}
+
+.third {
+	position: relative;
+	width: 100%;
+	background: #172036;
+	border-radius: 6px;
+	height: 174px;
+	display: block;
+	justify-content: space-between;
+	align-items: center;
+	overflow: auto;
+}
+
+.four {
+	position: relative;
+	background: #172036;
+	border-radius: 6px;
+	margin-top: 90px;
+	width: 100%;
+	height: 174px;
+	justify-content: space-between;
+	align-items: center;
+	overflow: auto;
+}
+
+
+
+a {
+	display: block;
+	flex: 1 1 25%;
+	height: 56px;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #98a4b7;
+	text-align: center;
+	-webkit-tap-highlight-color: transparent;
+	position: relative;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+span {
+	position: relative;
+	bottom: 5px;
+	font-size: 12px;
+}
+
+a:hover {
+	color: white;
+}
+
+.myTemp {
+	font-size: 20px;
+	border: none;
+	background: none;
+	outline: none;
+	width: 36%;
+	color: #ffffff;
+}
+
+.image-box {
+	width: 72px;
+	height: 72px;
+	border-radius: 70%;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.profile {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+label {
+	color: #efefef;
+}
+
+.writeLink {
+	position: relative;
+	border-bottom: 1px solid #25304A;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 40px;
+	width: 92%;
+	height: 50px;
+	margin-left: 20px;
+	display: flex;
+	color: #efefef;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.commentLink {
+	position: relative;
+	border-bottom: 1px solid #25304A;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 40px;
+	width: 92%;
+	height: 50px;
+	margin-left: 20px;
+	display: flex;
+	color: #efefef;
+	justify-content: space-between;
+	align-items: center;
+}
+
+li {
+	list-style: none;
+}
+
+.detailBtn {
+	border: none;
+	background: none;
+	cursor: pointer;
+	color: #efefef;
+}
+
+.writeLabel {
+	position: relative;
+	bottom: 9px;
+}
+
+.write-wrap {
+	margin-top: 60px;
+}
+
+.third::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	background-color: #172036;
+}
+
+.third::-webkit-scrollbar {
+	width: 6px;
+}
+
+.third::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: #555;
+}
+
+.four::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	background-color: #172036;
+}
+
+.four::-webkit-scrollbar {
+	width: 6px;
+}
+
+.four::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: #555;
+}
+
+.review-label {
+	position: relative;
+    bottom: -82px;
+}
+.header {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 99999;
+	width: 100%;
+	padding-bottom: calc(env(safe-area-inset-bottom));
+	border-bottom: 0;
+	will-change: transform;
+	background: #101322;
+	box-shadow: 0 -4px 16px rgba(16, 16, 16, .48);
+}
+
+.navi {
+	display: flex;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0 16px;
+	position: relative;
+}
+
+.navi_a {
+	position: relative;
+	top: 7px;
+	width: 175px;
+	text-align: center;
+	display: block;
+	flex: 1 1 25%;
+	height: 56px;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #98a4b7;
+	-webkit-tap-highlight-color: transparent;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+i {
+	transition: background-color 0.2s ease-in-out;
+}
+
+.navi_a:hover {
+	color: #efefef;
+	transition: .4s ease-in-out;
+}
+
+.navi span {
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 10px;
+	text-align: center;
+}

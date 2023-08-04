@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+	align-items: flex-start;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, .1);
+	height: 48px;
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+	display: block;
+	list-style-type: none;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+	margin-top: 8px;
+	border-radius: 6px;
+	background-color: #172036;
+	padding-left: 20px;
+	width: 700px;
+}
+
+.form-bar {
+    background: url(https://static.kinolights.com/icon/search_navy08.svg) 10px no-repeat #25304a;
+	background-color: #172036;
+	display: flex;
+	width: 700px;
+	margin: 0 auto;
+	box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+	height: 45px;
+	border-radius: 10px;
+	text-indent: 15px;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.search {
+	margin-left: 16px;
+	background-color: #172036;
+	border: none;
+	width: 655px;
+	height: 20px;
+	color: #EFEFEF;
+	font-size: 16px;
+}
+
+input:focus {
+	outline: none;
+}
+
+.rankNm {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}

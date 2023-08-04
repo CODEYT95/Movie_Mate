@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Server/Desktop/MovieMate/lib/commons-dbcp2-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Server/Desktop/MovieMate/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Server/Desktop/MovieMate/lib/commons-pool2-2.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Server/Desktop/MovieMate/lib/jackson-annotations-2.14.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Server/Desktop/MovieMate/lib/jackson-core-2.14.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Server/Desktop/MovieMate/lib/jackson-databind-2.14.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Server/Desktop/MovieMate/lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Server/Desktop/MovieMate/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Server/Desktop/MovieMate/lib/kobis-opcl-rest-v1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Server/Desktop/MovieMate/lib/mysql-connector-j-8.0.33.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Server/Desktop/MovieMate/lib/servlet-api.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

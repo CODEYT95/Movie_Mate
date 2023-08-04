@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	display: block;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background: #101322;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Jost', sans-serif;
+}
+
+.sub_header {
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	background: #101322;
+	z-index: 1000;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.sub_inner {
+	background: inherit;
+	max-width: 700px;
+	margin: 0 auto;
+	height: 56px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+h1 {
+	font-size: 18px !important;
+	line-height: 22px;
+	font-weight: 700;
+	color: #efefef;
+	position: relative;
+}
+
+.header {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 99999;
+	width: 100%;
+	padding-bottom: calc(env(safe-area-inset-bottom));
+	border-bottom: 0;
+	will-change: transform;
+	background: #101322;
+	box-shadow: 0 -4px 16px rgba(16, 16, 16, .48);
+}
+
+.navi {
+	display: flex;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0 16px;
+	position: relative;
+}
+
+.navi_a {
+	position: relative;
+	top: 7px;
+	width: 175px;
+	text-align: center;
+	display: block;
+	flex: 1 1 25%;
+	height: 56px;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #98a4b7;
+	-webkit-tap-highlight-color: transparent;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.navi span {
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 10px;
+	text-align: center;
+}
+
+i {
+	transition: background-color 0.2s ease-in-out;
+}
+
+.navi_a:hover {
+	color: #efefef;
+	transition: .4s ease-in-out;
+}
+
+#backButton {
+	position: absolute;
+	right: 96%;
+	top: 36%;
+	cursor: pointer;
+	line-height: 1.15;
+	margin: 0;
+	border: none;
+	background: none;
+}
+
+.contents {
+	overflow: visible;
+	padding-bottom: 0;
+	min-height: calc(100vh - env(safe-area-inset-bottom));
+	height: 1px;
+	position: relative;
+	background: #101322;
+	min-width: 320px;
+	max-width: 700px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.reviews {
+	padding-bottom: -16px;
+}
+
+.review-box {
+	margin-bottom: 10px;
+	background-color: #172036;
+	padding: 16px 16px 8px;
+	border-radius: 10px;
+	position: relative;
+	top: 66px;
+}
+
+@media ( min-width : 700px) {
+	.review-box {
+		border-radius: 10px;
+		margin-bottom: 16px;
+	}
+}
+
+.review-header {
+	height: 64px;
+	display: flex;
+	flex-direction: row;
+	min-width: 0;
+}
+
+.header-info {
+	overflow: hidden;
+	flex: 1;
+	display: block;
+	padding-top: 4px;
+	margin: 0 0 10px 10px;
+}
+
+.info-title {
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	min-width: 0;
+}
+
+.title-link {
+	flex: 1;
+	overflow: hidden;
+}
+
+.writeDate {
+	padding-top: 1px;
+	flex-shrink: 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: -.1px;
+	margin-left: 16px;
+	color: #586a85;
+}
+
+.user-info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 28px;
+}
+
+.user-nick {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-right: 2px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: -.1px;
+	color: #98a4b7;
+	font-family: Dotum, NotoSansKR, system-ui, -apple-system, Segoe UI,
+		Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica,
+		"Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.user-rating-of {
+	white-space: nowrap;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: -.1px;
+	overflow: hidden;
+	color: #98a4b7;
+	margin-right: 4px;
+	font-family: Dotum, NotoSansKR, system-ui, -apple-system, Segoe UI,
+		Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica,
+		"Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.review-contents {
+	margin-top: 12px;
+	margin-bottom: 16px;
+	padding-inline-start: 12px;
+}
+
+.contents-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 21px;
+	letter-spacing: -.1px;
+	overflow: hidden;
+	word-break: break-all;
+	color: #efefef;
+}
+
+.movie-title {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 21px;
+	letter-spacing: -.1px;
+	width: 100%;
+	color: #efefef;
+}
+
+.reviews a {
+	cursor: pointer;
+	text-decoration-line: none;
+}

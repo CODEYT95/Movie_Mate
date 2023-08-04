@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+
+	<display-name>MovieMate</display-name>
+
+	<welcome-file-list>
+		<welcome-file></welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>SearchMovie</servlet-name>
+		<servlet-class>controller.movie.SearchMovie</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchMovie</servlet-name>
+		<url-pattern>/SearchMovie</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchResult</servlet-name>
+		<servlet-class>controller.movie.SearchResult</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchResult</servlet-name>
+		<url-pattern>/SearchResult</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>movieInfo</servlet-name>
+		<servlet-class>controller.movie.MovieInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>movieInfo</servlet-name>
+		<url-pattern>/movieInfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DailyRank</servlet-name>
+		<servlet-class>controller.movie.DailyRank</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DailyRank</servlet-name>
+		<url-pattern>/DailyRank</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Review</servlet-name>
+		<servlet-class>controller.movie.Review</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Review</servlet-name>
+		<url-pattern>/Review</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>InsertReview</servlet-name>
+		<servlet-class>controller.movie.InsertReview</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InsertReview</servlet-name>
+		<url-pattern>/InsertReview</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateReview</servlet-name>
+		<servlet-class>controller.movie.UpdateReview</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateReview</servlet-name>
+		<url-pattern>/UpdateReview</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeleteReview</servlet-name>
+		<servlet-class>controller.movie.DeleteReview</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteReview</servlet-name>
+		<url-pattern>/DeleteReview</url-pattern>
+	</servlet-mapping>
+
+</web-app>

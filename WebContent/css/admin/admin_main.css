@@ -1,0 +1,230 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+div {
+    display: block;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: #101322;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+}
+
+.adminList {
+    position: relative;
+    top: 57px;
+    margin: 0 auto;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 107px;
+    box-sizing: border-box;
+    display: block;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navi a {
+    position: relative;
+    top: 7px;
+    width: 175px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 auto;
+    position: relative;
+    top: -26px;
+    padding: 0 60px;
+    box-sizing: border-box;
+    max-width: 700px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 56px;
+    white-space: nowrap;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    letter-spacing: -.02em;
+    color: #efefef;
+    transition: all .3s ease-in;
+}
+
+.sub_header {
+    background: #101322;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9000;
+    height: 56px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.sub_inner {
+    position: relative;
+    max-width: 700px;
+    height: 56px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#backButton {
+    position: absolute;
+    right: 96%;
+    top: 36%;
+    cursor: pointer;
+    line-height: 1.15;
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99999;
+    height: 56px;
+    width: 100%;
+    padding-bottom: calc(env(safe-area-inset-bottom));
+    border-bottom: 0;
+    will-change: transform;
+    background: #101322;
+    box-shadow: 0 -4px 16px rgba(16, 16, 16, .48);
+}
+
+.navi {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px;
+    position: relative;
+}
+
+a {
+    display: block;
+    flex: 1 1 25%;
+    height: 56px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #98a4b7;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.adList,
+.adList2 {
+    background: #172036;
+    padding: 10px 6px 10px 14px;
+}
+
+span,
+i {
+    position: relative;
+    bottom: 5px;
+    font-size: 12px;
+}
+
+i {
+    transition: background-color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    position: relative;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-inline-start: 12px;
+    line-height: 65px;
+}
+
+li a span {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.divider {
+    padding: 0.8px;
+}
+
+li:not(:last-child) {
+    margin-bottom: -2px;
+}
+
+li:last-child {
+    margin-bottom: 10px;
+}
+
+h5 {
+    color: #98a4b7;
+}
+
+#logBtn {
+    position: absolute;
+    right: 1%;
+    top: 30%;
+    border-radius: 18px;
+    height: 28px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #101322;
+    background-color: #98A4B7;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+#logBtn:hover {
+    background: #4263EB;
+    color: #efefef;
+    transition: .3s ease-in-out;
+}
+
+#adminNick {
+    color: #efefef;
+    float: right;
+    margin-right: 104px;
+    top: -33px;
+    font-size: 12px;
+}
+
+.icon {
+    position: relative;
+    top: 24px;
+    width: 52px;
+    height: 61px;
+}

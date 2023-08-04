@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+a {
+	color: inherit;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, .1);
+	height: 64px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul {
+	display: block;
+	list-style-type: none;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+	margin-top: 8px;
+	border-radius: 6px;
+	padding-left: 20px;
+}
+
+img {
+	height: 64px;
+}
+
+.rankTitle {
+	font-size: 22px;
+	line-height: 23px;
+	font-weight: 700;
+	color: #efefef;
+	letter-spacing: -0.2px;
+	padding-right: 18px;
+	margin-bottom: 32px;
+	margin-left: 10px;
+}
+
+.rankBox {
+	display: flex;
+	justify-content: space-between;
+	width: 600px;
+}
+
+.rankNo {
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 16px;
+}
+
+.rankNm {
+	margin-left: 32px;
+}
+
+.rankValue {
+	display: flex;
+}
+
+.rankUpdate {
+	width: 50px;
+}
+
+#rankUp {
+	color: #0ca678;
+}
+
+#rankDown {
+	color: #f03e3e;
+}
+
+#rankPlateau {
+	color: #3b4869;
+	font-size: 22px;
+	font-weight: 700;
+}
