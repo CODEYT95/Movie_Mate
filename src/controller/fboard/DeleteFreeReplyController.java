@@ -26,8 +26,6 @@ public class DeleteFreeReplyController extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    	System.out.println("대글삭제~");
-      
         try {
         	int no = Integer.parseInt(request.getParameter("no"));
             int rno = Integer.parseInt(request.getParameter("rno")); // 수정할 게시글의 번호
