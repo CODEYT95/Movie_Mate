@@ -11,9 +11,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-
-
-
 <script>
 $(document).ready(function() {
 	  $('.input-box i').on('click', function() {
