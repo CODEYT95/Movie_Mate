@@ -20,6 +20,5 @@
 - 강민용
 
 ### 📌 기술
-- HTML, CSS, JavaScript, Ajax, Jinja, jQuery
-- pycharm, Robo3-T
-- Flask, jinja2, aws, mongodb
+- HTML, CSS, JavaScript, Ajax, jQuery
+- 
