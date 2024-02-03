@@ -23,4 +23,4 @@
 - HTML, CSS, JavaScript, Ajax, jQuery
 - 
 
-### 📌 MovieMate -<a href="https://yuntae.notion.site/MovieMate-7177aa21148643f98b6c8ced1ca6ba30" target="_blank">상세보기</a>
+### 📌 MovieMate -[자세히 보기](https://yuntae.notion.site/MovieMate-7177aa21148643f98b6c8ced1ca6ba30)
