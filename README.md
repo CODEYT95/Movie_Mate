@@ -24,7 +24,7 @@
 - 강민용
 
 ### 📌 기술
-- HTML5, CSS, JavaScript, Ajax, jQuery
+- HTML5, CSS3, JavaScript, Ajax, jQuery
 - Java, JSP, Apache Tomcat
 - MySQL
 
